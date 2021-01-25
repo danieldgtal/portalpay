@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Griffin I File Upload</title>
+	<meta name="description" content="A responsive bootstrap 4 admin dashboard template by hencework" />
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	
+	<!-- Bootstrap Dropzone CSS -->
+	<link href="vendors/dropzone/dist/dropzone.css" rel="stylesheet" type="text/css"/>
+	
+	<!-- Bootstrap Dropzone CSS -->
+	<link href="vendors/dropify/dist/css/dropify.min.css" rel="stylesheet" type="text/css"/>
+	
+	<!-- Toggles CSS -->
+	<link href="vendors/jquery-toggles/css/toggles.css" rel="stylesheet" type="text/css">
+	<link href="vendors/jquery-toggles/css/themes/toggles-light.css" rel="stylesheet" type="text/css">
+	
+	<!-- Custom CSS -->
+	<link href="dist/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- Preloader -->
+	<div class="preloader-it">
+		<div class="loader-pendulums"></div>
+	</div>
+	<!-- /Preloader -->
+	
+	<!-- HK Wrapper -->
+	<div class="hk-wrapper hk-alt-nav">
+	
+		<!-- Top Navbar -->
+        <nav class="navbar navbar-expand-xl navbar-light fixed-top hk-navbar hk-navbar-alt">
+            <a class="navbar-toggle-btn nav-link-hover navbar-toggler" href="javascript:void(0);" data-toggle="collapse" data-target="#navbarCollapseAlt" aria-controls="navbarCollapseAlt" aria-expanded="false" aria-label="Toggle navigation"><span class="feather-icon"><i data-feather="menu"></i></span></a>
+            <a class="navbar-brand" href="dashboard1.html">
+                <img class="brand-img d-inline-block align-top" src="dist/img/logo-light.png" alt="brand" />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarCollapseAlt">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./logout" >Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /Top Navbar -->
+		
+			
+		
+		
+		
+		<!-- Main Content -->
+		<div class="hk-pg-wrapper">
+			<!-- Breadcrumb -->
+			<nav class="hk-breadcrumb" aria-label="breadcrumb">
+				<ol class="breadcrumb breadcrumb-light bg-transparent">
+					<li class="breadcrumb-item"><a href="#">Forms</a></li>
+					<li class="breadcrumb-item active" aria-current="page">File Upload</li>
+				</ol>
+			</nav>
+			<!-- /Breadcrumb -->
+			
+			<!-- Container -->
+			<div class="container-fluid">
+				<!-- Title -->
+				<div class="hk-pg-header">
+					<h4 class="hk-pg-title"><span class="pg-title-icon"><span class="feather-icon"><i data-feather="upload"></i></span></span>File Upload</h4>
+				</div>
+				<!-- /Title -->
+				
+				<!-- Row -->
+				<div class="row">
+					<div class="col-xl-12">
+						<section class="hk-sec-wrapper">
+							<h5 class="hk-sec-title">Dropzone</h5>
+							<p class="mb-40">A lightweight open source library that provides drag’n’drop file uploads with image previews.</p>
+							<div  class="row">
+								<div class="col-sm">
+									<form action="#" class="dropzone" id="remove_link">
+										<div class="fallback">
+											<input name="file" type="file" multiple />
+										</div>
+									</form>
+								</div>
+							</div>
+						</section>
+						<section class="hk-sec-wrapper">
+							<h5 class="hk-sec-title">Dropify</h5>
+							<p class="mb-40">Override your input files with style. Find more options <a href="http://jeremyfagis.github.io/dropify/" target="_blank">here</a>.</p>
+							<div  class="row">
+								<div class="col-sm">
+									<input type="file" id="input-file-now" class="dropify" />
+								</div>
+							</div>
+						</section>
+					</div>	
+				</div>
+				<!-- /Row -->
+			</div>
+			<!-- /Container -->
+			
+			<!-- Footer -->
+			<div class="hk-footer-wrap container-fluid">
+				<footer class="footer">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<p>Pampered by<a href="https://hencework.com/" class="text-dark" target="_blank">Hencework</a> © 2019</p>
+						</div>
+						<div class="col-md-6 col-sm-12">
+							<p class="d-inline-block">Follow us</p>
+							<a href="#" class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-facebook"></i></span></a>
+							<a href="#" class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-twitter"></i></span></a>
+							<a href="#" class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-google-plus"></i></span></a>
+						</div>
+					</div>
+				</footer>
+			</div>	
+			<!-- /Footer -->
+		
+		</div>
+		<!-- /Main Content -->
+	
+	</div>
+	<!-- /HK Wrapper -->
+	
+	<!-- JavaScript -->
+	
+	<!-- jQuery -->
+	<script src="vendors/jquery/dist/jquery.min.js"></script>
+	
+	<!-- Bootstrap Core JavaScript -->
+	<script src="vendors/popper.js/dist/umd/popper.min.js"></script>
+	<script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+	
+	<!-- Slimscroll JavaScript -->
+	<script src="dist/js/jquery.slimscroll.js"></script>
+
+	<!-- Fancy Dropdown JS -->
+	<script src="dist/js/dropdown-bootstrap-extended.js"></script>
+	
+	<!-- Dropzone JavaScript -->
+	<script src="vendors/dropzone/dist/dropzone.js"></script>
+	
+	<!-- Dropify JavaScript -->
+	<script src="vendors/dropify/dist/js/dropify.min.js"></script>
+	
+	<!-- Form Flie Upload Data JavaScript -->
+	<script src="dist/js/form-file-upload-data.js"></script>
+	
+	<!-- FeatherIcons JavaScript -->
+	<script src="dist/js/feather.min.js"></script>
+	
+	<!-- Toggles JavaScript -->
+	<script src="vendors/jquery-toggles/toggles.min.js"></script>
+	<script src="dist/js/toggle-data.js"></script>
+	
+	<!-- Init JavaScript -->
+	<script src="dist/js/init.js"></script>
+</body>
+</html>
